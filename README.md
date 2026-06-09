@@ -1,6 +1,5 @@
 # shopee-post-purchase-dashboard# Shopee Post-Purchase Experience Dashboard
 
-
 ## Business Problem
 
 Many e-commerce customer complaints are not caused by the initial issue itself,
@@ -15,7 +14,6 @@ Customers often face:
 This project demonstrates how data analytics can be used to monitor
 post-purchase experience and identify operational bottlenecks.
 
-
 ## Objective
 
 Build an executive dashboard that:
@@ -24,7 +22,6 @@ Build an executive dashboard that:
 - Identifies process bottlenecks
 - Segments complaint drivers
 - Quantifies impact on customer retention
-
 
 ## Key Metrics
 
@@ -35,7 +32,6 @@ Build an executive dashboard that:
 - Reopen Rate
 - Customer Satisfaction Score (CSAT)
 - Post-Purchase Health Index
-
 
 ## Dashboard Sections
 
@@ -59,7 +55,6 @@ Segment complaints by:
 
 Measure how dispute outcomes affect customer retention.
 
-
 ## Key Findings
 
 - Seller Response is the largest source of dispute delays.
@@ -67,14 +62,12 @@ Measure how dispute outcomes affect customer retention.
 - Cases resolved within 3 days achieve significantly higher retention.
 - Reopened cases exhibit substantially lower customer loyalty.
 
-
 ## Recommendations
 
 1. Introduce seller response SLAs.
 2. Escalate cases approaching 7-day resolution thresholds.
 3. Prioritize high-risk segments for operational improvements.
 4. Monitor dispute performance through a unified Health Index.
-
 
 ## Tech Stack
 
@@ -84,5 +77,6 @@ Measure how dispute outcomes affect customer retention.
 - Plotly
 - Streamlit
 
+## Access Dashboard
 
-## Dashboard Preview
+[Open the Shopee Post-Purchase Dashboard](https://shopee-post-purchase-dashboard-ehfesvlvcaybkpsf4udvk4.streamlit.app/)
