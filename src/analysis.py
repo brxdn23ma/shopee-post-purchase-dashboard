@@ -5,21 +5,13 @@ TOTAL_ORDERS = 20000
 
 def load_data():
 
-    df = pd.read_csv(
-        "data/disputes.csv",
-        parse_dates=[
-            "order_date",
-            "case_open_date",
-            "evidence_collection_date",
-            "seller_response_date",
-            "investigation_date",
-            "decision_date",
-            "refund_date",
-            "close_date"
-        ]
+    data_path = (
+        Path(__file__).resolve().parent.parent
+        / "data"
+        / "disputes.csv"
     )
 
-    return df
+    return pd.read_csv(data_path)
 
 
 # ==========================================
