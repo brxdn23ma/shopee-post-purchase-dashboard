@@ -1,17 +1,25 @@
 import pandas as pd
+from pathlib import Path
 
 TOTAL_ORDERS = 20000
 
 
 def load_data():
 
-    data_path = (
-        Path(__file__).resolve().parent.parent
-        / "data"
-        / "disputes.csv"
+    df = pd.read_csv(
+        "data/disputes.csv",
+        parse_dates=[
+            "order_date",
+            "case_open_date",
+            "evidence_collection_date",
+            "seller_response_date",
+            "investigation_date",
+            "decision_date",
+            "refund_date",
+            "close_date"
+        ]
     )
-
-    return pd.read_csv(data_path)
+    return df
 
 
 # ==========================================
